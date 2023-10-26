@@ -73,7 +73,7 @@ b{
 
 }
 
-.container{
+.search .container{
   position: relative;
   --size-button: 30px;
   color: white;
@@ -106,7 +106,7 @@ b{
   cursor: pointer;
 }
 
-.container .icon {
+.search .container .icon {
   position: absolute;
   width: var(--size-button);
   height: var(--size-button);
@@ -116,7 +116,7 @@ b{
   pointer-events: none;
 }
 
-.container .icon svg {
+.search .container .icon svg {
   width: 100%;
   height: 100%;
 }
@@ -267,12 +267,30 @@ b{
     width: 40%;
   }
 
-  .products-content h2{
+  .products-content , .solution-content  h2{
     color: #29344c;
     font-weight: bold;
   }
 
   /*------------------ end products section ------------------*/
+
+  /*------------------ start Solution section ------------------*/ 
+
+  .solution{
+    background-color: #F4FAFD;
+  }
+
+  .solution .nav-link{
+    color: #293B51;
+  }
+
+  .solution .nav-link.active{
+    background-color: #54862e;
+    width: 210px;
+  }
+
+  /*------------------ start Solution section ------------------*/ 
+
 
   
   
