@@ -2,6 +2,13 @@
 /*------------------ **{M.Atef Edit}** ------------------*/
 
 /*------------------ Global------------------*/
+body{
+  font-family: 'Poppins', sans-serif;
+}
+@font-face {
+  font-family: Magi;
+  src: url(../Magistral/Magistral-Bold.ttf);
+}
 
 .head-title{
   color: #679A41;
@@ -17,13 +24,7 @@ b{
 
 /*------------------ Start navbar ------------------*/
 
-body{
-    font-family: 'Poppins', sans-serif;
-}
-@font-face {
-    font-family: Magi;
-    src: url(../Magistral/Magistral-Bold.ttf);
-}
+
 .navbar{
     background-color: #f8f8f8;
     box-shadow: 0px 2px 5px #a7a7a7;
@@ -60,6 +61,15 @@ body{
 .nav-menu a{
     transition: all .5s;
     border-radius: 18px;
+
+}
+
+.dropdown-menu{
+  background-color: #fafafa;
+}
+
+.nav-menu .dropdown-item{
+  width: 250px;
 
 }
 /*------------------ End navbar ------------------*/
@@ -247,7 +257,7 @@ body{
     .nav-menu a:hover {
         color: #679A41;
         font-weight: bold;
-        background-color: #ecf5ea;
+        background-color: #f0f0f0;
         border-radius: 18px;
         box-shadow: 2px 4px 5px #ccc;
     
@@ -256,7 +266,7 @@ body{
         /* color: #679A41; */
         color: #679A41;
         font-weight: bold;
-        background-color: #ecf5ea;
+        background-color: #f0f0f0;
         border-radius: 18px;
         box-shadow: 2px 4px 5px #ccc;
       }
