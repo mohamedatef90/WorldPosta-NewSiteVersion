@@ -115,7 +115,7 @@ b{
   width: var(--size-button);
   height: var(--size-button);
   top: -2px;
-  left: 15px;
+  left: 13px;
   padding: 5px;
   pointer-events: none;
 }
@@ -137,6 +137,8 @@ b{
   /* filter: blur(4px); */
 
 }
+
+
 
 /*------------------ end Home section ------------------*/
 
@@ -246,22 +248,6 @@ b{
     width: 210px;
   }
 
-  /*------------------ start Solution section ------------------*/ 
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-  /*------------------ start Solution section ------------------*/ 
   .slide-in-blurred-bottom {
     -webkit-animation: slide-in-blurred-bottom 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
             animation: slide-in-blurred-bottom 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
@@ -306,6 +292,12 @@ b{
       opacity: 1;
     }
   }
+
+  /*------------------ end Solution section ------------------*/ 
+
+
+  /*------------------ start Solution section ------------------*/ 
+ 
 
 
 
