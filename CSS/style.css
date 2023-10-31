@@ -226,8 +226,8 @@ b{
     width: 40%;
   }
 
-  .products-content , .solution-content  h2{
-    color: #29344c;
+  .sec-title h2{
+    color:#29344c;
     font-weight: bold;
   }
 
@@ -296,7 +296,70 @@ b{
   /*------------------ end Solution section ------------------*/ 
 
 
-  /*------------------ start Solution section ------------------*/ 
+  /*------------------ start enterprise App section ------------------*/ 
+  .app-logos{
+    overflow: hidden;
+    margin: 20px 0;
+    white-space: nowrap;
+    
+  }
+
+  .logos-container{
+    background-color: #f8f8f8;
+    position: relative;
+  }
+
+  .logos-container::before , .logos-container::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    width: 150px;
+    height: 100%;
+    z-index: 2;
+  }
+
+  .logos-container::before{
+    left: 0;
+    background: linear-gradient(to left, rgba(255,255,255,0), #b6ddae6e);
+  }
+  .logos-container::after{
+    right: 0;
+    background: linear-gradient(to right, rgba(255,255,255,0), #b6ddae6e);
+  }
+
+
+  .logos-slider{
+    padding: 30px 0;
+    display: inline-block;
+    animation: 20s slide infinite linear;
+  }
+
+  .logos-container:hover .logos-slider{
+    animation-play-state: paused;
+  }
+
+  .logos-slider img{
+    height: 50px;
+    margin: 0 30px;
+  }
+
+  .oracle{
+    width: 250px;
+  }
+
+  @keyframes slide {
+    from{
+      transform: translateX(0);
+    }
+    to{
+      transform: translateX(-100%);
+    }
+   
+    }
+
+
+  /*------------------ end enterprise App section ------------------*/ 
+
  
 
 
