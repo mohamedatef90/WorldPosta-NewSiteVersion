@@ -16,7 +16,9 @@ function openTab(tabName) {
 let designLinkEl = document.getElementById("DesignLink");
 let progLinkEl = document.getElementById("ProgLink");
 let musicLinkEl = document.getElementById("SupportLink");
+let networkLinkEl = document.getElementById("networkLink");
 
 designLinkEl.addEventListener("click", function(){openTab("Design")}, false);
 progLinkEl.addEventListener("click", function(){openTab("Programming")}, false);
 musicLinkEl.addEventListener("click", function(){openTab("Support")}, false);
+networkLinkEl.addEventListener("click", function(){openTab("network")}, false);

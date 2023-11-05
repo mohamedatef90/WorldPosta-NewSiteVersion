@@ -413,9 +413,23 @@ b{
     border-bottom: solid 1px #ff6f61;
 }
 
+.discover .heading-network {
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: solid 1px #212121;
+  padding: 2rem;
+  transition: background-color 0.5s ease;
+}
+
+.discover .heading-network:hover {
+  background-color:#679A41;
+  border-bottom: solid 1px #679A41;
+}
+
 .discover .tab-contents {
     display: none;
 }
+
 
 .discover .left-content {
     padding-left: 4rem;
