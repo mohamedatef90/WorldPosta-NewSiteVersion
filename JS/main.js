@@ -2,7 +2,7 @@ function openTab(tabName) {
     let i;
     let tabContent;
     
-    tabContent = document.getElementsByClassName("tab-content");
+    tabContent = document.getElementsByClassName("tab-contents");
     
     for (i = 0; i < tabContent.length; i++) {
         tabContent[i].style.display = "none";
