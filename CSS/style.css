@@ -370,19 +370,23 @@ b{
 
 
    /*------------------ end running business section ------------------*/
- 
 
+   /*------------------ start features section ------------------*/ 
+  
+    .text-color-f{
+      color: #23355e !important;
+    }
    .discover .heading-design {
     cursor: pointer;
     background-color: #fff;
-    border-bottom: solid 1px #212121;
+    border-bottom: solid 1px #679A41;
     padding: 2rem;
     transition: background-color 0.5s ease;
 }
 
 .discover .heading-design:hover {
-    background-color: #ff9800;
-    border-bottom: solid 1px #ff9800;
+    background-color: #b6ddae6e;
+    border-bottom: solid 1px #b6ddae6e;
 }
 
 .discover .heading-prog {
@@ -395,9 +399,9 @@ b{
 }
 
 .discover .heading-prog:hover {
-    color: #eeeeee;
-    background-color: #212121;
-    border-bottom: solid 1px #212121;
+    /* color: #eeeeee; */
+    background-color: #b6ddae6e;
+    border-bottom: solid 1px #b6ddae6e;
 }
 
 .discover .heading-music {
@@ -409,8 +413,8 @@ b{
 }
 
 .discover .heading-music:hover {
-    background-color: #ff6f61;
-    border-bottom: solid 1px #ff6f61;
+    background-color: #b6ddae6e;
+    border-bottom: solid 1px #b6ddae6e;
 }
 
 .discover .heading-network {
@@ -422,8 +426,8 @@ b{
 }
 
 .discover .heading-network:hover {
-  background-color:#679A41;
-  border-bottom: solid 1px #679A41;
+  background-color:#b6ddae6e;
+  border-bottom: solid 1px #b6ddae6e;
 }
 
 .discover .tab-contents {
@@ -443,10 +447,11 @@ b{
 }
 
 .discover .img-custwidth {
-    padding-top: 4rem;
-    width: 512px;
+    padding-top: 1.5rem;
+    /* width: 512px; */
 }
 
+/*------------------ end features section ------------------*/
 
 
 
