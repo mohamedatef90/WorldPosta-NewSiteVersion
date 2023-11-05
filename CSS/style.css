@@ -453,7 +453,17 @@ b{
 
 /*------------------ end features section ------------------*/
 
-
+.cta{
+  background: url(../imgs/CTA/cloud-computing-conceptcloud-transfer-datacloud-computing-big-data-center-future-infrastructure-digital-ai-concept-virtual-hosting-symbolicon-upload-downloadvirtual-hosting-symbol.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 
