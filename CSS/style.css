@@ -458,7 +458,7 @@ b{
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   height: 250px;
   display: flex;
   justify-content: center;
