@@ -160,7 +160,7 @@ b{
     background-color: rgba(255, 255, 255, 0.184);
   backdrop-filter: blur(10px);
 }
-.card {
+.products .card {
     position: relative;
     width: 300px;
     height: 200px;
@@ -175,19 +175,19 @@ b{
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   
-  .card svg {
+  .products .card svg {
     width: 48px;
     fill: #333;
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   
-  .card:hover {
+  .products .card:hover , .blogs .card:hover{
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
     cursor: pointer;
   }
   
-  .card__content {
+  .products .card__content {
     position: absolute;
     top: 0;
     left: 0;
@@ -201,25 +201,25 @@ b{
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   
-  .card:hover .card__content {
+  .products .card:hover .card__content {
     transform: rotateX(0deg);
     background-color: rgba(219, 238, 215, 0.552);
     backdrop-filter: blur(7px);
 
   }
   
-  .card__title {
+  .products .card__title {
     margin: 0;
     font-size: 24px;
     color: #29344c;
     font-weight: 700;
   }
   
-  .card:hover svg {
+  .products .card:hover svg {
     scale: 0;
   }
   
-  .card__description {
+  .products .card__description {
     margin: 10px 0 0;
     font-size: 14px;
     color: #333;
@@ -386,6 +386,9 @@ b{
     transition: background-color 0.5s ease;
 }
 
+.border-r{
+  border-right:#23355e 1px solid;
+}
 .discover .heading-design:hover {
     background-color: #b6ddae6e;
     border-bottom: solid 1px #b6ddae6e;
@@ -584,11 +587,19 @@ b{
   }
 }
 
-
-
-
-
 /*------------------ end cloudedge section ------------------*/
+
+
+.blogs .card{
+  transition: all .5s;
+}
+
+
+
+
+
+
+
 
 
 
