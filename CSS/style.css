@@ -27,7 +27,23 @@ b{
 
 
 /*------------------ End Global------------------*/
+.bg-banner{
+  background: linear-gradient(to top, #a4cba2 0%, #8b9aa0 100%);
+  color: white;
 
+}
+.bg-banner span{
+  color: #23355e;
+  font-weight: bold;
+  font-size: x-large;
+}
+.bg-banner a{
+  color: white;
+  transition: all .5s linear;
+}
+.bg-banner a:hover{
+  color: #23355e;
+}
 /*------------------ Start navbar ------------------*/
 
 
@@ -55,7 +71,7 @@ b{
     /* font-size: 18px; */
     box-shadow: 2px 4px 5px #ccc;
 }
-.main-btn a{
+.main-btn a {
     text-decoration: none;
     color: white;
 }
@@ -63,6 +79,11 @@ b{
     color: #1b1b1b;
   } */
   
+.navbar .reg-btn{
+  background-color: #54862e;
+  color: white;
+}
+
 
 .nav-menu a{
     transition: all .5s;
