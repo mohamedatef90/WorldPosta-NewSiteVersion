@@ -30,20 +30,68 @@ b{
 .bg-banner{
   background: linear-gradient(to top, #a4cba2 0%, #8b9aa0 100%);
   color: white;
-
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 999;
+}
+.bg-banner h6{
+  font-size: large;
 }
 .bg-banner span{
   color: #23355e;
   font-weight: bold;
   font-size: x-large;
+  position: relative;
+}
+
+.underlined {
+  position: relative;
+}
+.underline-clip:after {
+  content: '';
+  position: absolute;
+  top: 95%;
+  width: 150%;
+  aspect-ratio: 3 / 1;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-radius: 50%;
+  border: 6px solid #eca400;
+  /* Use a clip-path to hide and show the bits you want */
+  clip-path: polygon(0 0, 50% 50%, 100% 0);
+}
+
+.bg-banner .banner-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0;
 }
 .bg-banner a{
-  color: white;
+  text-decoration: none;
+  /* color: white; */
+  margin: 0 10px;
+  font-weight:600;
   transition: all .5s linear;
+
+  --s: 0.2em;   /* the thickness of the line */
+  --c: #25306b; /* the color */
+  
+  color: #0000;
+  padding-bottom: var(--s);
+  background: 
+    linear-gradient(90deg,var(--c) 50%,#d91e36 0) calc(100% - var(--_p,0%))/200% 100%,
+    linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+  -webkit-background-clip: text,padding-box;
+          background-clip: text,padding-box;
+  transition: 0.5s;
 }
 .bg-banner a:hover{
-  color: #23355e;
+  --_p: 100%
 }
+
 /*------------------ Start navbar ------------------*/
 
 
