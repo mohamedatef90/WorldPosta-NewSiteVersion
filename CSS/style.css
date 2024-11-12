@@ -308,16 +308,22 @@ b{
   /*------------------ start Solution section ------------------*/ 
 
   .solution{
-    background-color: #F4FAFD;
+    background-color: #fcfcfc;
   }
 
   .solution .nav-link{
     color: #293B51;
+    padding: 10px 20px;
   }
 
   .solution .nav-link.active{
-    background-color: #54862e;
-    width: 210px;
+    /* background-color: transparent; */
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: #54862e 0.5px solid;
+    color: #54862e;
+    /* width: 210px; */
   }
 
   .solution .slide-in-blurred-bottom {
